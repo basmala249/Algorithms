@@ -29,6 +29,6 @@ int main() {
       cin >> arr[i] ;
   }
   print(arr , n);
-  SelectionSort(arr , n);
+  bubbleSort(arr , n);
   print(arr , n);
 }
